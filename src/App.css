@@ -1,0 +1,17 @@
+ *{
+     padding: 0;
+     margin: 0;
+ }
+ .App{
+     width: 100vw;
+     height: 100vh;
+     padding: 100px; 
+     background-image: url('D:\\reactPrac\\weather\\src\\components\\imgs\\bg.png');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+ }
+ @media(max-width:600px){
+     .App{
+         padding: 10px;
+     }
+ }

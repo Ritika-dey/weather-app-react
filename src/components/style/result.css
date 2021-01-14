@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+.result{
+    width: 100%;
+    padding: 10px;
+}
+.name{
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+}
+.name h1{ 
+    font-family: 'Bebas Neue', cursive;
+}
+.name h2{ 
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(82, 78, 78);
+}
+.temp h1{
+    text-align: center;
+    font-weight: bold;    
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}  
+.details{
+    width: 100%;
+    height: auto;
+    padding: 10px;  
+    margin: 4px;
+}
+.detail-div{
+    box-shadow: 2px 2px 8px black; 
+    margin-bottom: 10px;
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.detail-div p{
+    font-size: 20px; 
+    font-weight: bolder;
+    font-family: 'Arvo', serif; 
+    color: rgb(5, 5, 5);
+}
+@media(max-width:600px)
+{
+    .detail-div{
+        height: 100px;
+        border-radius: 20px;
+    }
+    .temp h1{
+        font-size:30px;
+    }
+}

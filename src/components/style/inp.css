@@ -1,0 +1,23 @@
+.inp{ 
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+input[type="text"]{ 
+    flex: 3; 
+    margin: 10px;
+    border-radius: 10px;
+    height: 45px;
+}
+button{
+    flex: 1;  
+    height: 43px; 
+}
+@media(max-width:600px){
+    .inp{
+        width:80vw;
+    }
+}
