@@ -81,9 +81,7 @@ class MainDiv extends Component {
                         humidity = {this.state.humidity}
                         iconid = {this.state.iconid}
                         description = {this.state.description}
-                        />
-
-                        <Footer />
+                        /> 
                     </div> 
             )
        }
