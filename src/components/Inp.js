@@ -11,6 +11,12 @@ function Inp(props) {
                     placeholder ="Enter City Name" 
                     value ={props.city}
                     onChange={props.nameChange}
+                    onKeyPress={e => {
+                        if(e.charCode == 13)
+                           {
+                               props.clickHandler()
+                           }
+                    }}
                 /> 
                 <button 
                     className="btn btn-primary" 
